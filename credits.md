@@ -11,6 +11,7 @@ sidebar:
     + jerbear64
     + pokecraft98
     + emiyl
+    + derberg
     + Robz8
     + Jhynjhiruu
     + GhostLatte

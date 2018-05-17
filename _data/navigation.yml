@@ -10,12 +10,12 @@ main:
 side:
   - title: Guide
     children:
-      - title: "Installing Unlaunch"
-        url: /guide/installing-unlaunch/
-      - title: "Installing HiyaCFW"
-        url: /guide/installing-hiyacfw/
-      - title: "Finalizing Setup"
-        url: /guide/finalizing-setup/
+      - title: "Unlaunch installieren"
+        url: /guide/unlaunch-installieren/
+      - title: "HiyaCFW installieren"
+        url: /guide/hiyacfw-installieren/
+      - title: "Setup komplettieren"
+        url: /guide/setup-komplettieren/
 
   - title: More
     children:

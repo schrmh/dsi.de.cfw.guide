@@ -2,14 +2,17 @@
 layout: splash
 permalink: /
 title: DSi-Guide
-excerpt: "Ein vollständiger “Nintendo DSi“-Homebrew-Guide; von Stock zu HiyaCFW"
+excerpt: "Ein vollständiger “Nintendo DSi“-Homebrew-Guide; von Stock zu HiyaCFW."
 header:
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
-  cta_url: /guide/installing-unlaunch
+  cta_url: /guide/hiyacfw-installieren/
 ---
 
 Dieser Guide ist nicht kompatibel mit Entwickler- oder mit chinesischen iQue-Varianten des DSi.
+{: .notice--info}
+
+Die Übersetzung dieser Anleitung ist unvollständig und kann Passagen auf Englisch beinhalten.
 {: .notice--info}
 
 ## Was ist Homebrew?

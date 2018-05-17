@@ -17,6 +17,6 @@ paypal.me/jerbear64
 {: .notice}
 
 [![Paypal]({{ "/assets/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.me/drberg/10){: .align-center}{:target="_blank"}
-paypal.me/derberg (german translation)
+paypal.me/derberg
 {: .text-center}
 {: .notice}
