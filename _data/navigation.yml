@@ -2,9 +2,9 @@
 main:
   - title: "Credits"
     url: /credits
-  - title: "Donate"
-    url: /donate
-  - title: "Home"
+  - title: "Spenden"
+    url: /spenden
+  - title: "Startseite"
     url: https://cfw.guide/
 
 side:
