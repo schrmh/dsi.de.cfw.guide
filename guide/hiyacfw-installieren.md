@@ -96,5 +96,5 @@ HiyaCFW ist eine “Custom firmware“ für den “Nintendo DSi“, die nach dem
 
 Dein System sollte jetzt von der SD-Karte anstatt vom internen NAND booten.
 
-[Setup komplettieren](/guide/finalizing-setup){: .btn .btn--light-outline}
+[Setup komplettieren](/guide/setup-komplettieren){: .btn .btn--light-outline}
 {: style="text-align: center;"}

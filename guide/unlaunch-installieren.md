@@ -89,5 +89,5 @@ Unlaunch ist ein DSi-Bootcode-Exploit, der es dir erlauben wird, HiyaCFW, eine a
 
 Mit einer Installation von Unlaunch hat dein System jetzt einen primitiven Brick-Schutz, bis die TMD-Datei des Launchers zerstört wird. Unlaunch hat Schutzvorkehrungen, die das verhindern sollten und HiyaCFW nutzt deine SD-Karte als den NAND des DSi, was dein System theoretisch unbrickbar macht.
 
-[HiyaCFW installieren](/guide/installing-hiyacfw){: .btn .btn--light-outline}
+[HiyaCFW installieren](/guide/hiyacfw-installieren){: .btn .btn--light-outline}
 {: style="text-align: center;"}
