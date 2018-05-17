@@ -17,7 +17,7 @@ Die Übersetzung dieser Anleitung ist unvollständig und kann Passagen auf Engli
 
 ## Was ist Homebrew?
 
-Homebrew-Anwendungen sind angepasste, Benutzer-generierte Softwares, welche nicht durch Ninteno autorisiert wurden. Dies beinhaltet Spielstand-Editier-Tools, Spiele, Emulatoren, etc.
+Homebrew-Anwendungen sind angepasste, Benutzer-generierte Softwares, welche nicht durch Nintendo autorisiert wurden. Dies beinhaltet Spielstand-Editier-Tools, Spiele, Emulatoren, etc.
 
 Homebrew kann kostenlos auf deinem DSi genutzt werden, solange du eine Kopie von “Flipnote Studio“ oder einen älteren DSiWare-Exploit installiert hast.
 
