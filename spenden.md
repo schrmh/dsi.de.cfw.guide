@@ -16,7 +16,7 @@ paypal.me/jerbear64
 {: .text-center}
 {: .notice}
 
-[![Paypal]({{ "/assets/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.me/drberg/10){: .align-center}{:target="_blank"}
+[![Paypal]({{ "/assets/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.me/derberg/10){: .align-center}{:target="_blank"}
 paypal.me/derberg
 {: .text-center}
 {: .notice}
