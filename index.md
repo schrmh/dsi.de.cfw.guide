@@ -6,7 +6,7 @@ excerpt: "Ein vollständiger “Nintendo DSi“-Homebrew-Guide; von Stock zu Hiy
 header:
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
-  cta_url: /guide/hiyacfw-installieren/
+  cta_url: /guide/unlaunch-installieren/
 ---
 
 Dieser Guide ist nicht kompatibel mit Entwickler- oder mit chinesischen iQue-Varianten des DSi.
