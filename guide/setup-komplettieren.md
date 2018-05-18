@@ -5,67 +5,39 @@ sidebar:
   nav: "side"
 ---
 
-Jetzt werden wir SRLoader ins Systemmenü installieren, indem wir TWLit nutzen, was uns dabei helfen wird, `.tia`-Dateien in den neuen SD-NAND zu installieren.
+Jetzt werden wir SRLoader ins Systemmenü installieren, indem wir es auf die SD-Karte kopieren.
 
 SRLoader ist eine Homebrewanwendung, die Homebrews und Retail-ROMs laufen lassen kann, und die auch verschiedene Emulatoren mitbringt.
 
 ## Downloads
 
-- Die letzte veröffentlichte Version von [TWLit](/assets/files/TWLit.exe)
 - Die letzte veröffentlichte Version von [SRLoader](https://github.com/Robz8/SRLoader/releases){:target="_blank"}
 
 ## Anweisungen
 
-1. Kopiere `SRLoader.tia` des SRLoader `.7z`-Archives zu einem Ort auf deinem Computer
-2. Verbinde deine SD-Karte, die den SD-NAND (<2GB) beinhaltet
+1. Verbinde deine SD-Karte, die den SD-NAND (<2GB) beinhaltet, mit deinem Computer
+2. Kopiere *den Inhalt von* `CFW - SDNAND root` des SRLoader `.7z-Archives zum Rootverzeichnis deiner als SD-NAND genutzen (<2GB) SD-Karte.
 3. Kopiere die  `_nds`- und `roms`-Ordner des SRLoader `.7z`-Archives zum Root-Verzeichnis deiner SD-Karte
-4. Öffne TWLit
-    - Falls sich TWLit nicht öffnet, dann installiere “[Microsoft Visual C++ 2010 Redistributable Package](https://www.microsoft.com/de-DE/download/details.aspx?id=5555){:target="_blank"}“
-5. Navigiere zum “**TIA Installer**“-Tab
-6. Drücke "Browse" bei dem “**Input TIA**“-Eingabefeld
-7. Navigiere zum Speicherort von `SRLoader.tia`, selektiere `SRLoader.tia`, und drücke **Open**
-8. Drücke "Browse" bei dem “**Install Dir**“ Eingabefeld
-9. Navigiere zu deiner SD-Karte und drücke **Open**
-10. (Optional) Gebe deine Konsolen-ID in das “**DSi Console ID**“-Eingabefeld ein
-11. Drücke  "Execute"
-12. Schließe TWLit, entferne deine SD-Karte und stecke diese in deinen DSi
-13. Schalte deine Konsole an
-14. Öffne die neue Geschenkbox, indem du sie antippst
+4. Trenne die SD-Karte vom PC und stecke sie in den DSi
+5. Schalte deine Konsole an
+6. Öffne die neue Geschenkbox, indem du sie antippst
     - SRLoader sollte nun auftauchen
 
-Menü umschalten
-Setup komplettieren
-
-Wenn dir dieser Guide gefällt, dann denke bitte darüber nach, uns eine Spende zukommen zu lassen: PayPal.
-
-Falls du Hilfe benötigst oder du Probleme hast, dann lese unsere FAQ-Seite oder frage uns auf Discord.
-
-Jetzt werden wir SRLoader ins Systemmenü installieren, indem wir TWLit nutzen, was uns dabei helfen wird,.tia -Dateien in den neuen SD-NAND zu installieren.
-
-SRLoader ist eine Homebrewanwendung, die Homebrews und Retail-ROMs laufen lassen kann, und die auch verschiedene Emulatoren mitbringt.
-
-## Downloads
-
-- Die letzte veröffentlichte Version von TWLit
-- Die letzte veröffentlichte Version von SRLoader
-
-## Anweisungen
-
-1. Kopiere die SRLoader.tia des SRLoader .7z-Archives zu einem Ort auf deinem Computer
-1. Verbinde deine SD-Karte, die den SD-NAND (<2GB) beinhaltet
-1. Kopiere die _nds- und roms-Ordner des SRLoader .7z-Archives zum Root-Verzeichnis deiner SD-Karte
-1. Öffne TWLit
-1. Falls sich TWLit nicht öffnet, dann installiere “Microsoft Visual C++ 2010 Redistributable Package“
-1. Navigiere zum “TIA Installer“-Tab
-1. Drücke “Browse” bei dem “Input TIA“-Eingabefeld
-1. Navigiere zum Speicherort von SRLoader.tia, selektiere SRLoader.tia, und drücke Open
-1. Press “Browse” on the Install Dir entry box
-1. Navigiere zu deiner SD-Karte und drücke Open
-1. (Optional) Gebe deine Konsolen-ID in das “DSi Console ID“-Eingabefeld ein
-1. Drücke “Execute”
-1. Schließe TWLit, entferne deine SD-Karte und stecke diese in deinen DSi
-1. Schalte deine Konsole an
-1. Öffne die neue Geschenkbox, indem du sie antippst
-1. SRLoader sollte nun auftauchen
-
 SRLoader sollte nun auf deinem System-Menü sein, so wie es jede andere DSiWare sein sollte. Mit SRLoader kannst du Homebrew-Anwendungen, ROMs von Spielen und verschiedene mitgelieferte Emulatoren ausführen.
+
+## Nutzung
+
+1. Kopiere ROMs je nach Typ in entsprechende Ordner
+  - Platziere Gameboy-ROMs in `/roms/gb`
+  - Platziere NDS-ROMs in `/roms/nds`
+  - Platziere NES-ROMs in `/roms/nes`
+  - Für GBA-ROMs, erstelle einen Ordner in `roms` mit dem Namen `gba` und platziere sie hier
+  - GBA-ROMs benötigen eine Kopie des GBA-BIOS, die `bios.bin` heißt, in dem Root-Verzeichnis deiner SD-Karte. Aktuell können Spielstände von GBA-Spielen nicht gesichert werden.
+2. Öffne SRLoader, indem du einen Homebrew-Eintrittspunkt deiner Wahl nutzt
+3. Nun wirst du eine Liste deiner NDS-ROMs sehen
+  - Drücke **Y** um Homebrew-Anwendungen ohne nds-bootstrap zu starten
+  - Drücke **A** um kommerzielle ROMs und Homebrew-ROMs über nds-bootstrap zu starten (Homebrew mit erweitertem DSi-Header werden nicht durch bootstrap gestartet)
+  - Drücke **SELECT**, um eine Spender-ROM zu setzen, wenn die Kompatibilitätsliste danach verlangt
+  - Drücke **HOCH** oder **RUNTER** um zwischen NDS-ROMs und DSiWare zu wechseln
+  - Drücke **START**, dann navigiere zu “**Start GBARunner2**“, um GBA-ROMs zu starten
+  - Drücke **B** um zum DSi-Menü zurückzukehren
