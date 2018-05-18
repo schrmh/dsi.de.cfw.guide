@@ -8,7 +8,7 @@ sidebar:
 Dieser Guide benötigt einen gehackten 3DS, auf dem [Luma3DS](https://github.com/AuroraWright/Luma3DS){:target="_blank"} und [FBI](https://github.com/Steveice10/FBI){:target="_blank"} installiert ist.
 {: .notice--info}
 
-Dieser Guide wird dir erlauben, DSiWare zu kopieren, die du auf deiner DSi-Konsole nutzen kannst. Du wirst einen gehackten 3DS benötigen, der mit Luma3DS läuft. Folge [3ds.hacks.guide](3ds.hacks.guide/de_DE/){:target="_blank"} um deinen 3DS zu hacken.
+Dieser Guide wird dir erlauben, DSiWare zu kopieren, die du auf deiner DSi-Konsole nutzen kannst. Du wirst einen gehackten 3DS benötigen, der mit Luma3DS läuft. Folge [3ds.hacks.guide](https://3ds.hacks.guide/de_DE/){:target="_blank"} um deinen 3DS zu hacken.
 
 ## TitleID einer DSiWare finden
 1. Öffne die Homebrew FBI auf deinem 3DS
