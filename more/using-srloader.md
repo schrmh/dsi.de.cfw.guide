@@ -1,38 +1,38 @@
 ---
-title: Using SRLoader
+title: SRLoader benutzen
 layout: single
 sidebar:
   nav: "side"
 ---
 
-nds-bootstrap is currently a proof-of-concept, and is far from complete. Expect long loading times and compatibility issues. It is highly recommended that you check and bookmark the [compatibility chart](https://docs.google.com/spreadsheets/d/1M7MxYQzVhb4604esdvo57a7crSvbGzFIdotLW0bm0Co/edit#gid=0){:target="_blank"}.
+nds-bootstrap ist Momentan a im Proof-of-Concept-Stadium und ist bei weitem noch nicht fertig. Erwarte lange Ladezeiten und Kompatibilitätsprobleme. Es wird stark empfohlen, folgende Seite zu lesen und ein Lesezeichen auf sie zu setzen: [Kompatibilitätstabelle](https://docs.google.com/spreadsheets/d/1M7MxYQzVhb4604esdvo57a7crSvbGzFIdotLW0bm0Co/edit#gid=0){:target="_blank"}.
 {: .notice--info}
 
-SRLoader is a homebrew application that will allow you to run homebrew applications, as well as commercial ROMs using [nds-bootstrap](https://github.com/ahezard/nds-bootstrap){:target="_blank"}. SRLoader also has various emulators built in, as well as a GBA runner, which will let you run Gameboy Color, NES and GBA ROMs.
+SRLoader ist eine Homebrewanwendung, die Homebrews und Retail-ROMs laufen lassen kann, wofür sie [nds-bootstrap](https://github.com/ahezard/nds-bootstrap){:target="_blank"} nutzt. SRLoader hat zudem verschiedene Emulatoren integriert, wie z.B. “GBA runner“, was das Abspielen von “Gameboy Color“-, NES- und GBA-ROMs ermöglicht.
 
-You can learn more about SRLoader [here](https://gbatemp.net/threads/srloader-gui-for-flashcards-also-a-nds-app-for-dsi.472200/){:target="_blank"}.
+Mehr über SRLoader erfährst du [hier](https://gbatemp.net/threads/srloader-gui-for-flashcards-also-a-nds-app-for-dsi.472200/){:target="_blank"}.
 
 ## Downloads
 
 - The latest release of [SRLoader](https://github.com/Robz8/SRLoader/releases)
 
 ## Installation
-1. Insert your system's SD card into your computer
-2. Copy the contents of the twlnf `.7z` file to the root of your SD card
-  - If prompted to replace boot.nds, say yes
-3. Copy ROMs to their respective folders
-  - Place Gameboy roms in `/roms/gb`
-  - Place NDS roms in `/roms/nds`
-  - Place NES roms in `/roms/nes`
-  - For GBA, make a folder in `roms` named `gba` and place roms there
-  - GBA requires a copy of the GBA BIOS named `bios.bin` on the root of your SD card, and currently has no saving support
+1. Verbinde die SD-Karte deines Systems mit deinem Computer
+2. Kopiere den Content des twlnf `.7z`-Archives in das Root-Verzeichnis deiner SD-Karte
+  - Wenn du gefragt wirst, ob du boot.nds ersetzen möchtest, dann stimme zu
+3. Kopiere ROMs je nach Typ in entsprechende Ordner
+  - Platziere Gameboy-ROMs in `/roms/gb`
+  - Platziere NDS-ROMs in `/roms/nds`
+  - Platziere NES-ROMs in `/roms/nes`
+  - Für GBA-ROMs, erstelle einen Ordner in `roms` mit dem Namen `gba` und platziere sie hier
+  - GBA-ROMs benötigen eine Kopie des GBA-BIOS, die `bios.bin` heißt, in dem Root-Verzeichnis deiner SD-Karte. Aktuell können Spielstände von GBA-Spielen nicht gesichert werden.
 
-## Usage
-1. Launch SRLoader using your homebrew entrypoint of choice
-2. You will now see a list of your NDS ROMs
-  - Press **Y** to launch homebrew applications without nds-bootstrap
-  - Press **A** to launch commercial/homebrew ROMs using nds-bootstrap (Homebrew with DSi-extended header will not be ran by bootstrap)
-  - Press **SELECT** to set a donor ROM when the compatibility list asks for one
-  - Press **UP** or **DOWN** to toggle between NDS ROMs and DSiWare
-  - Press **START**, then navigate to **Start GBARunner2** to run GBA ROMs
-  - Press **B** to return to the DSi Menu
+## Nutzung
+1. Öffne SRLoader, indem du einen Homebrew-Eintrittspunkt deiner Wahl nutzt
+2. Nun wirst du eine Liste deiner NDS-ROMs sehen
+  - Drücke **Y** um Homebrew-Anwendungen ohne nds-bootstrap zu starten
+  - Drücke **A** um kommerzielle ROMs und Homebrew-ROMs über nds-bootstrap zu starten (Homebrew mit erweitertem DSi-Header werden nicht durch bootstrap gestartet)
+  - Drücke **SELECT**, um eine Spender-ROM zu setzen, wenn die Kompatibilitätsliste danach verlangt
+  - Drücke **HOCH** oder **RUNTER** um zwischen NDS-ROMs und DSiWare zu wechseln
+  - Drücke **START**, dann navigiere zu “**Start GBARunner2**“, um GBA-ROMs zu starten
+  - Drücke **B** um zum DSi-Menü zurückzukehren

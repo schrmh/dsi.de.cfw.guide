@@ -1,19 +1,19 @@
 ---
-title: Updating HiyaCFW
+title: HiyaCFW aktualisieren
 layout: single
 sidebar:
   nav: "side"
 ---
 
-This guide requires HiyaCFW to be previously installed.
+Dieser Guide setzt eine bereits vorhandene Installation von HiyaCFW vorraus.
 {: .notice--info}
 
 ## Downloads
-- The latest release of the HiyaCFW [bootcode.dsi](/assets/files/bootcode.dsi)
+- Die letzte veröffentlichte Version von HiyaCFWs [bootcode.dsi](/assets/files/bootcode.dsi)
 
-## Instructions
-1. Power off your DSi
-2. Insert your 2GB SDNAND SD card into your computer
-3. Copy over the HiyaCFW `bootcode.dsi` file to your SD card
-4. Overwrite if prompted
-5. Eject your SD card and insert it back into your DSi
+## Anweisungen
+1. Schalte deinen DSi aus
+2. Verbinde deine 2GB-SDNAND-SD-Karte mit deinem Computer
+3. Kopiere HiyaCFWs neue  `bootcode.dsi`-Datei auf deine SD-Karte
+4. Überschreibe die alte Datei, wenn du von deinem Betriebssystem dazu aufgefordert wirst
+5. Werfe deine SD-Karte aus und stecke sie zurück in deinen DSi

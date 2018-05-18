@@ -1,66 +1,66 @@
 ---
-title: Installing Sudokuhax
+title: Sudokuhax installieren
 layout: single
 sidebar:
   nav: "side"
 ---
 
-This guide only supports USA consoles for now.
+Dieser Guids ist im Moment nur für USA-Konsolen geeignet.
 {: .notice--info}
 
-Make sure you have at least 30 blocks of space on your console's internal storage, or you **will brick** your device.
+Stelle sicher, dass du mindestens 30 Blöcke an freiem Speicher auf dem internen Speicher deiner Konsole hast. Dein Gerät **wird bricken**, wenn nicht genug Blöcke frei sind.
 {: .notice--danger}
 
-sudokuhax is an exploit of the Sudoku DSiWare game, allowing us to launch the Homebrew Launcher seconds after starting the application.
+Sudokuhax ist ein Exploit für die Sudoku-DSiWare, durch den der Homebrew-Launcher bereits nach wenigen Sekunden, nach Öffnen der DSiWare, starten wird.
 
 To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](https://dev.deluge-torrent.org/wiki/Download).
 
-## What you need
-- <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> -  [sudokuhax](magnet:?xt=urn:btih:fd4dcb2f954f48adb2af96326609f9c3f3ae2a7a&dn=sudokuhax.zip&tr=http%3a%2f%2ftracker.tfile.me%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2ftorrent.gresille.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.yoshi210.com%3a6969%2fannounce&tr=http%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=http%3a%2f%2ftracker1.wasabii.com.tw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=http%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=http%3a%2f%2ftorrent.gresille.org%2fannounce&tr=udp%3a%2f%2ftracker.filetracker.pl%3a8089%2fannounce&tr=http%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2fzer0day.ch%3a1337%2fannounce&tr=http%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=http%3a%2f%2ftracker.baravik.org%3a6970%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce)
+## Was du benötigst
+- <i class="fa fa-magnet" aria-hidden="true" title="Dies ist ein Magnet-Link. Benutze einen Torrent-Client, um die dahinterliegende Datei herunterladen zu können."></i> -  [sudokuhax](magnet:?xt=urn:btih:fd4dcb2f954f48adb2af96326609f9c3f3ae2a7a&dn=sudokuhax.zip&tr=http%3a%2f%2ftracker.tfile.me%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2ftorrent.gresille.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.yoshi210.com%3a6969%2fannounce&tr=http%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=http%3a%2f%2ftracker1.wasabii.com.tw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=http%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=http%3a%2f%2ftorrent.gresille.org%2fannounce&tr=udp%3a%2f%2ftracker.filetracker.pl%3a8089%2fannounce&tr=http%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2fzer0day.ch%3a1337%2fannounce&tr=http%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=http%3a%2f%2ftracker.baravik.org%3a6970%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce)
 
-## Preparation
+## Vorbereitung
 
-1. Insert your device's SD card into your computer
-2. Copy the contents of the sudokuhax `.zip` to the root of your SD card
-3. Unplug your SD card, and insert it in your DSi
+1. Verbinde deine SD-Karte mit deinem Computer
+2. Kopiere den Content von sudokuhax `.zip` zum Root-Verzeichnis deiner SD-Karte
+3. Trenne deine Karte vom PC und stecke sie in deinen DSi
 
-## Launching twlnf
-1. Open the Flipnote Studio application
-  - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
-2. Select **View Flipnote > SD Card > Select Folder > User > ugopwn**
-3. Click on the note with the red bottom half
-4. Select "Edit"
-5. Click on the Flipnote frog icon in the bottom left
-6. Click on the film roll icon
-7. Select **Copy > Back > Exit**
-8. Click the second note.
-9. Click on the Flipnote frog icon in the bottom left
-10. Click on the film roll icon.
-11. Click on the single right arrow (the next to last arrow icon) two times
-  - You will see a new frame be created
-12. Click on the paste button exactly 122 times.
-13. Select "Erase" and then "Paste"
-  - This should launch twlnf
+## twlnf starten
+1. Öffne die "Flipnote Studio"-App
+  - Stelle sicher, dass *Mit Kalender starten*  in den Einstellungen der App deaktiviert ist
+2. Selektiere  **Flipnote ansehen > SD Card > Ordner wählen > User > ugopwn**
+3. Klicke auf das Note mit der unteren roten Hälfte
+4. Wähle “Bearbeiten”
+5. Klicke auf Flipnotes Frosch-Icon, das unten links ist
+6. Klicke auf das Filmrollen-Icon
+7. Selektiere **Kopieren > Zurück > Beenden**
+8. Klicke auf das zweite Note
+9. Klicke auf Flipnotes Frosch-Icon, das unten links ist
+10. Klicke auf das Filmrollen-Icon
+11. Klicke auf den einzelnen rechten Pfeil (der neben dem letzten Pfeil-Icon) zweimal
+  - Du wirst nun sehen, wie ein neuer Frame erstellt wird
+12. Klicke genau 122x auf den Einfügen-Button
+13. Wähle “Löschen” und dann “Einfügen”
+  - Dies sollte twlnf ausführen
 
-## Installing Sudokuhax
-1. If prompted in twlnf, press **A** to create a NAND backup
-  - This may take a few minutes
-  - Store this NAND backup in a safe location, it is a critical backup
-2. Press **X** to mount the NAND directly
-  - twlnf does not list this as an option
-3. Open the `sudoku/content` folder
-4. Navigate to `title.tmd`
-5. Press **A** to install the application to NAND
-6. Once finished, press **Select** to quit twlnf
-7. Press **A** to confirm
-  - Your console will power off
+## Sudokuhax installieren
+1. Falls in twlnf aufgefordert, drücke **A** um ein NAND-Backup zu erstellen
+  - Dies wird ein paar Minuten dauern
+  - Bewahre dieses NAND-Backup an einer sicheren Stelle auf, denn es ist ein wichtiges Backup.
+2. Drücke **X** um den NAND direkt zu mounten
+  - twlnf listet dies nicht als eine Option
+3. Öffne den `sudoku/content`-Ordner
+4. Navigiere zu `title.tmd`
+5. Drücke **A** um die App in den NAND zu installieren
+6. Wenn abgeschlossen, drücke **Select** um twlnf zu verlassen
+7. Drücke **A** zum Bestätigen
+  - Deine Konsole wird sich nun ausschalten
 
-## Launching sudokuhax
+## Sudokuhax starten
 
-1. Power on your console
-2. Tap the new gift box on your Home Menu to "unwrap" Sudoku
-3. Open the application
-4. Wait for the ESRB and EA screens to pass
-5. When prompted, touch the screen to load the entrypoint
+1. Schalte deine Konsole an
+2. Öffne die neue Geschenkbox, um Sudoku “auszupacken“
+3. Öffne die Software
+4. Warte, bis die ESRB- und EA-Bildschirme angezeigt wurden
+5. Wenn aufgefordert, dann tippe auf den unteren Bildschirm, um den Entrypoint zu laden
 
-Sudokuhax will now load whatever homebrew you have on your SD card as `boot.nds`.
+Sudokuhax wird nun die Homebrew von deiner SD-Karte laden, die dort `boot.nds` benannt ist.
