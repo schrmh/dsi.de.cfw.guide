@@ -44,25 +44,28 @@ Jetzt werden wir SRLoader ins Systemmenü installieren, indem wir TWLit nutzen, 
 
 SRLoader ist eine Homebrewanwendung, die Homebrews und Retail-ROMs laufen lassen kann, und die auch verschiedene Emulatoren mitbringt.
 
-Downloads
-Die letzte veröffentlichte Version von TWLit
-Die letzte veröffentlichte Version von SRLoader
-Anweisungen
-Kopiere die SRLoader.tia des SRLoader .7z-Archives zu einem Ort auf deinem Computer
-Verbinde deine SD-Karte, die den SD-NAND (<2GB) beinhaltet
-Kopiere die _nds- und roms-Ordner des SRLoader .7z-Archives zum Root-Verzeichnis deiner SD-Karte
-Öffne TWLit
-Falls sich TWLit nicht öffnet, dann installiere “Microsoft Visual C++ 2010 Redistributable Package“
-Navigiere zum “TIA Installer“-Tab
-Drücke “Browse” bei dem “Input TIA“-Eingabefeld
-Navigiere zum Speicherort von SRLoader.tia, selektiere SRLoader.tia, und drücke Open
-Press “Browse” on the Install Dir entry box
-Navigiere zu deiner SD-Karte und drücke Open
-(Optional) Gebe deine Konsolen-ID in das “DSi Console ID“-Eingabefeld ein
-Drücke “Execute”
-Schließe TWLit, entferne deine SD-Karte und stecke diese in deinen DSi
-Schalte deine Konsole an
-Öffne die neue Geschenkbox, indem du sie antippst
-SRLoader sollte nun auftauchen
+## Downloads
+
+- Die letzte veröffentlichte Version von TWLit
+- Die letzte veröffentlichte Version von SRLoader
+
+## Anweisungen
+
+1. Kopiere die SRLoader.tia des SRLoader .7z-Archives zu einem Ort auf deinem Computer
+1. Verbinde deine SD-Karte, die den SD-NAND (<2GB) beinhaltet
+1. Kopiere die _nds- und roms-Ordner des SRLoader .7z-Archives zum Root-Verzeichnis deiner SD-Karte
+1. Öffne TWLit
+1. Falls sich TWLit nicht öffnet, dann installiere “Microsoft Visual C++ 2010 Redistributable Package“
+1. Navigiere zum “TIA Installer“-Tab
+1. Drücke “Browse” bei dem “Input TIA“-Eingabefeld
+1. Navigiere zum Speicherort von SRLoader.tia, selektiere SRLoader.tia, und drücke Open
+1. Press “Browse” on the Install Dir entry box
+1. Navigiere zu deiner SD-Karte und drücke Open
+1. (Optional) Gebe deine Konsolen-ID in das “DSi Console ID“-Eingabefeld ein
+1. Drücke “Execute”
+1. Schließe TWLit, entferne deine SD-Karte und stecke diese in deinen DSi
+1. Schalte deine Konsole an
+1. Öffne die neue Geschenkbox, indem du sie antippst
+1. SRLoader sollte nun auftauchen
 
 SRLoader sollte nun auf deinem System-Menü sein, so wie es jede andere DSiWare sein sollte. Mit SRLoader kannst du Homebrew-Anwendungen, ROMs von Spielen und verschiedene mitgelieferte Emulatoren ausführen.

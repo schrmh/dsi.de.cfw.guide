@@ -12,9 +12,6 @@ header:
 Dieser Guide ist nicht kompatibel mit Entwickler- oder mit chinesischen iQue-Varianten des DSi.
 {: .notice--info}
 
-Die Übersetzung dieser Anleitung ist unvollständig und kann Passagen auf Englisch beinhalten.
-{: .notice--info}
-
 ## Was ist Homebrew?
 
 Homebrew-Anwendungen sind angepasste, Benutzer-generierte Softwares, welche nicht durch Nintendo autorisiert wurden. Dies beinhaltet Spielstand-Editier-Tools, Spiele, Emulatoren, etc.
