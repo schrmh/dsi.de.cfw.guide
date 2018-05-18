@@ -13,6 +13,7 @@ sidebar:
     + emiyl
     + derberg
     + Robz8
+    + Justinde75
     + mnemonicpunk
     + Jhynjhiruu
     + GhostLatte
