@@ -21,10 +21,10 @@ side:
     children:
       - title: "Hardmodding"
         url: https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/
-      - title: "Updating HiyaCFW"
-        url: /more/updating-hiyacfw/
-      - title: "Dumping DSiWare from 3DS"
-        url: /more/dumping-dsiware-from-3ds/
+      - title: "HiyaCFW aktualisieren"
+        url: /more/hiyacfw-aktualisieren/
+      - title: "DSiWare vom 3DS dumpen"
+        url: /more/dsiware-vom-3ds-dumpen/
 
   - title: Help
     children:

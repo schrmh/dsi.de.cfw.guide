@@ -5,7 +5,7 @@ title: DSi-Guide
 excerpt: "Ein vollständiger “Nintendo DSi“-Homebrew-Guide; von Stock zu HiyaCFW."
 header:
   overlay_color: "#1a1d24"
-  cta_label: "Get Started"
+  cta_label: "Los geht's!"
   cta_url: /guide/unlaunch-installieren/
 ---
 
