@@ -11,9 +11,10 @@ sidebar:
     + jerbear64
     + pokecraft98
     + emiyl
-    + derberg
+    + derberg
     + Robz8
-    + Jhynjhiruu
+    + mnemonicpunk
+    + Jhynjhiruu
     + GhostLatte
     + HamBone41801
     + CatmanFan
